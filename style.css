@@ -34,7 +34,7 @@ h1 {
     margin: 10px 30px;
 }
 .image-container img {
-    width: 100%;
+    width: 80%;
     margin-top: 5px;
 }
 /* Footer------------------------------- */
@@ -66,9 +66,22 @@ footer {
 }
 
 /* media query */
+@media screen and (max-width: 1200px) {
+    h1 {
+      font-size: 2rem;      
+    }
+    .image-container {
+        margin: 10px 10%;
+    }
+
+    
+}
 @media screen and (max-width: 600px) {
     h1 {
       font-size: 2rem;      
+    }
+    .image-container {
+        margin: 10px 10px;
     }
 
     
